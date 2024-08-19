@@ -1,0 +1,41 @@
+*{margin:0;padding:0;outline:none}
+html, body{height:100%;min-height:100%}
+body {margin:0; padding:0; font-size:14px; color:#000; font-family:""}
+
+a {color:#eee; text-decoration:underline; -o-transition:all .2s;-moz-transition:all .2s;-webkit-transition:all .2s;transition:all .2s}
+a:hover{color:#000}
+b, strong {font-weight: 600;}
+ul, ol {margin:0;padding:0}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 600; color: #eee;}
+h1 {font-size: 210%}
+h2 {font-size: 180%}
+h3 {font-size: 150%}
+h4 {font-size: 120%}
+
+input,button,textarea {font-family:inherit}
+main,nav,aside,footer,header{display:block}
+
+img,fieldset {border:none}
+img {max-width:100%; height:auto}
+
+.page-wrapper { width: 100%; min-height: 100%; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; min-width: 1200px;}
+.wrap {width:1200px;margin:0 auto;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+
+.clr {clear:both;font-size:0px;line-height:0px}
+::selection{background:rgba(76,189,190,.58);color:#fff}
+
+.content-box ul, .content-box ol {margin:15px 0px 15px 40px}
+.content-box  ol li, .content-box  ul li {margin:5px 0}
+.content-box p {margin:10px 0;line-height:normal;}
+
+table{border-collapse:collapse}
+table td{padding:8px 12px}
+table.table{width:100%;margin:10px 0}
+table.table td{border:1px solid #b5d9ec}
+table.table .t-title{background:#e2eff7;text-align:center}
+table.table tr:nth-child(2n){background:#f5f8fb}
+table.table tr:hover{background:#e2eff7}
+
+
+.content {min-height: calc(100vh - 497px);}

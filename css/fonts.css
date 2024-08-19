@@ -1,0 +1,50 @@
+	@font-face {
+	    font-family: "PTSans";
+	    src: url("../fonts/PTSans/PTSansRegular.eot");
+	    src: url("../fonts/PTSans/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+	        url("../fonts/PTSans/PTSansRegular.woff") format("woff"),
+	        url("../fonts/PTSans/PTSansRegular.ttf") format("truetype");
+	    font-style: normal;
+	    font-weight: 400;
+	}
+
+	@font-face {
+	    font-family: "PTSans";
+	    src: url("../fonts/PTSans/PTSansItalic.eot");
+	    src: url("../fonts/PTSans/PTSansItalic.eot?#iefix")format("embedded-opentype"),
+	        url("../fonts/PTSans/PTSansItalic.woff") format("woff"),
+	        url("../fonts/PTSans/PTSansItalic.ttf") format("truetype");
+	    font-style: italic;
+	    font-weight: normal;
+	}
+
+	@font-face {
+	    font-family: "PTSans";
+	    src: url("../fonts/PTSans/PTSansBold.eot");
+	    src: url("../fonts/PTSans/PTSansBold.eot?#iefix")format("embedded-opentype"),
+	        url("../fonts/PTSans/PTSansBold.woff") format("woff"),
+	        url("../fonts/PTSans/PTSansBold.ttf") format("truetype");
+	    font-style: normal;
+	    font-weight: 600;
+	}
+
+	@font-face {
+	    font-family: 'PT Sans Narrow';
+	    src: local('PT Sans Narrow'), local('PTSans-Narrow'), url('../fonts/ptsansnarrow/ptsansnarrow.woff2') format('woff2'), url('../fonts/ptsansnarrow/ptsansnarrow.woff') format('woff'), url('../fonts/ptsansnarrow/ptsansnarrow.ttf') format('truetype');
+	    font-weight: 400;
+	    font-style: normal;
+	}
+
+	@font-face {
+	    font-family: 'PT Sans Narrow';
+	    src: local('PT Sans Narrow Bold'), local('PTSans-NarrowBold'), url('ptsansnarrowbold.woff2') format('woff2'), url('../fonts/ptsansnarrow/ptsansnarrowbold.woff') format('woff'), url('../fonts/ptsansnarrow/ptsansnarrowbold.ttf') format('truetype');
+	    font-weight: 700;
+	    font-style: normal;
+	}
+
+
+
+@font-face {
+  font-family: "iconfont";
+  src: url("../fonts/iconfont/iconfont.woff2") format('woff2'), url("tpl/fonts/iconfont/iconfont.woff") format('woff'), url("../fonts/iconfont/iconfont.ttf") format('truetype');
+}

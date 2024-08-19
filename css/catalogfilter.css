@@ -1,0 +1,68 @@
+
+
+
+.catalogfilter {
+    margin: 40px 0 0;
+    z-index: 5;
+}
+.leftmenu_a .catalogfilter {
+    display: none;
+}
+.catalogfilter .cftit {
+    padding: 0 0 20px 0;
+    font-size: 130%;
+    color: #505d61;
+    text-align: center;
+}
+.catalogfilter .cf_box {
+    padding: 0 0 30px;
+}
+.catalogfilter .cf_tit {
+    padding: 0 0 6px 67px;
+    font-size: 110%;
+    color: #505d61;
+}
+.catalogfilter .cf_tit:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    border-bottom: 1px solid #adbcc0;
+    left: 0;
+    top: 8px;
+    width: 46px;
+}
+.catalogfilter .cf_itms {
+}
+.catalogfilter .cf_itms .cf_itm {
+    margin: 0 0 0 25px;
+    padding: 5px 0 5px 42px;
+    cursor: pointer;
+}
+.catalogfilter .cf_itms .cf_itm span {
+}
+.catalogfilter .cf_itms .cf_itm svg {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 22px;
+    height: 22px;
+}
+.catalogfilter .cf_itms .cf_itm .svgicon_checkbox {
+    color: #adbcc0;
+}
+.catalogfilter .cf_itms .cf_itm:hover .svgicon_checkbox {
+    color: #505d61;
+}
+.catalogfilter .cf_itms .cf_itm_s .svgicon_checkbox {
+    display: none;
+}
+.catalogfilter .cf_itms .cf_itm .svgicon_checkbox2 {
+    color: #00baf4;
+    display: none;
+}
+.catalogfilter .cf_itms .cf_itm:hover .svgicon_checkbox2 {
+    color: #00a5d9;
+}
+.catalogfilter .cf_itms .cf_itm_s .svgicon_checkbox2 {
+    display: block;
+}

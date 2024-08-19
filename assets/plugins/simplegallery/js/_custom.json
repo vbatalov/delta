@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "TinyMCE4": {
+            "version":"4.3.6",
+            "src":"assets/plugins/tinymce4/tinymce/tinymce.min.js"
+        },
+        "rteForm" : {
+            "version":"1.4.1",
+            "src":"assets/plugins/simplegallery/js/tpl/rteForm.js"
+        },
+        "editrte":{
+            "version":"1.4.1",
+            "src":"assets/plugins/simplegallery/js/plugin/editrte.js"
+        }        
+    }
+}

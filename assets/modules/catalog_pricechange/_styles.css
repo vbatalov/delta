@@ -1,0 +1,65 @@
+
+.modul_scorn_all {
+    padding: 10px 15px 10px 15px;
+    =background: #f4f4f4 url( '_images/fon_main_1.png' ) left top repeat;
+    color: #333;
+    font: normal 14px arial, verdana, tahoma, helvetica, sans-serif;
+}
+.modul_scorn_all h1 {
+    margin: 0px 0px 20px 0px;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.modul_scorn_all form {
+    margin: 0px;
+}
+
+
+
+.clr {
+    clear: both;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+
+
+.wrapper {
+    display: table;
+    width: 100%;
+}
+
+
+.catalogtree {
+    display: table-cell;
+    width: 350px;
+    padding: 0px 50px 0px 0px;
+}
+.catalogtree .ctr_item {
+    padding: 2px 0px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.catalogtree .ctr_item a {
+    color: #000;
+    text-decoration: none;
+}
+.catalogtree .ctr_item a:hover {
+    color: #0051ea;
+}
+.catalogtree .ctr_sub {
+    padding: 2px 0px 2px 40px;
+}
+
+
+.content {
+    display: table-cell;
+}
+
+
+
+
+
+

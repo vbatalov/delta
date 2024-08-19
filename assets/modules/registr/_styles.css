@@ -1,0 +1,144 @@
+
+
+
+.clr {
+	clear: both;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+
+
+.orders_table {
+	border: 1px;
+	width: 100%;
+	border-collapse: collapse;
+}
+	.orders_table tr {
+	}
+		.orders_table tr td {
+			border: 1px solid #ddd;
+			border-left: 1px solid #eee;
+			border-right: 1px solid #eee;
+			font-size: 12px;
+			padding: 10px 6px;
+		}
+			.orders_table tr td a {
+				font-size: 12px;
+			}
+			
+		.orders_table .tit td {
+			font-weight: bold;
+			background: rgba( 0,0,0, 0.1 );
+			border-left: 1px solid #d0d0d0;
+			border-right: 1px solid #d0d0d0;
+		}
+		.orders_table .item td {
+			background: #fff;
+		}
+		.orders_table .item_chet td {
+			background: #f8f8f8;
+		}
+		.orders_table .status_10 td {
+		}
+		.orders_table .status_20 td {
+		}
+		.orders_table .status_30 td {
+			background: #f9d7f3;
+			opacity: 0.5;
+		}
+		.orders_table .status_40 td {
+			background: #deecf6;
+		}
+		.orders_table .status_50 td {
+			background: #deecf6;
+		}
+		.orders_table .status_60 td {
+			background: #e2f7c8;
+			opacity: 0.5;
+		}
+		.orders_table .status_999 td {
+			background: #f9d7f3;
+			opacity: 0.5;
+		}
+
+		.orders_table .tit .podrobn {
+			width: 70px;
+		}
+		.orders_table .tit .edit {
+			width: 90px;
+		}
+		.orders_table .tit .num {
+			width: 60px;
+			text-align: center;
+		}
+		.orders_table .tit .summa {
+			width: 90px;
+			text-align: right;
+		}
+		.orders_table .tit .fio {
+			width: 150px;
+			text-align: right;
+		}
+		.orders_table .tit .email {
+			width: 180px;
+		}
+		.orders_table .tit .phone {
+			width: 160px;
+		}
+		.orders_table .tit .gorod {
+		}
+		.orders_table .tit .status {
+		}
+		.orders_table .tit .action {
+		}
+		.orders_table .tit .date {
+			width: 70px;
+			text-align: center;
+		}
+
+		.orders_table .item .podrobn {
+		}
+		.orders_table .item .edit {
+			text-align: center;
+		}
+		.orders_table .item .num {
+			font-size: 14px;
+			text-align: center;
+		}
+		.orders_table .item .summa {
+			font-size: 14px;
+			text-align: right;
+			font-weight: bold;
+			color: #314861;
+		}
+		.orders_table .item .fio {
+			text-align: right;
+		}
+		.orders_table .item .email {
+		}
+			.orders_table .item .email a {
+				text-decoration: none;
+			}
+		.orders_table .item .phone {
+		}
+		.orders_table .item .gorod {
+		}
+		.orders_table .item .status {
+		}
+		.orders_table .item .action {
+			text-align: center;
+		}
+		.orders_table .item .date {
+			color: #999;
+			text-align: center;
+		}
+
+
+
+
+
+
+
+
+

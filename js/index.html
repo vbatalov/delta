@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <title>Главная</title>
+    <meta name="description" lang="ru" content="Главная" />
+    <meta name="keywords" lang="ru" content="Главная" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#468996">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <link href="/css/reset.css" type="text/css" rel="stylesheet" />
+    <link href="/css/uikit.min.css" type="text/css" rel="stylesheet" />
+    <link href="/css/custom.css" type="text/css" rel="stylesheet" />
+    <link href="/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="/css/fonts.css" type="text/css" rel="stylesheet" />
+    <link href="/css/media.css" type="text/css" rel="stylesheet" />
+
+
+
+</head>
+
+<body>
+    <div class="uk-flex">
+        <aside class="left uk-position-fixed">
+            <div class="left__logo-box">
+                <img src="img/logo.png" alt="" class="left__logo">
+                <div class="left__tagline">Центр оборудования</div>
+            </div>
+            <nav class="left__menu">
+                <ul class="left__menu-list">
+                    <li class="left__menu-item">
+                        <a class="left__menu-link" href="#">Весы, денежные ящики, детекторы денег</a>
+                    </li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Оснащение школ, детсадов, интернатов</a></li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Оборудование столовых, кафе и ресторанов</a></li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Печи, миксеры, теcтомесы</a></li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Пароконвектоматы, плиты, жарочные шкафы</a></li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Холодильники, лари, витрины, камеры</a></li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Мясорубки, овощерезки, блендеры</a></li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Зонты, мойки, столы из нержавейки</a></li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Посудомоечное оборудование, моечные средства</a></li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Столы, стулья, кресла, стеллажи, мебель по индивидуальному заказу</a></li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Торговые витрины, манекены, зеркала, вешала</a></li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Спецодежда: фартуки, халаты, перчатки, обувь, костюмы</a></li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Мясопереработка, рыбные, кондитерские, молочные цеха</a></li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Упаковочное оборудование, плёнка, пакеты</a></li>
+                    <li class="left__menu-item"><a class="left__menu-link" href="#">Прачечное оборудование</a></li>
+                    <li class="left__menu-item left__spezial"><a class="left__menu-link left__spezial-link" href=""> Специальное предложение <span class="right-arrow"></span></a></li>
+
+
+                </ul>
+            </nav>
+        </aside>
+        <div class="right">
+            <div class="adaptive-menu">
+                <div class="adaptive-menu__wrap uk-flex uk-flex-middle uk-flex-between">
+                    <a class="uk-navbar-toggle uk-hidden@l uk-flex-left" uk-toggle uk-navbar-toggle-icon href="#offcanvas-nav"></a>
+                    <div id="offcanvas-nav" data-uk-offcanvas="overlay: true">
+                        <div class="uk-offcanvas-bar">
+                            <button id="close-btn" class="uk-offcanvas-close uk-close-large" type="button" data-uk-close></button>
+                            <nav class="uk-width-auto">
+                                <ul class="uk-flex uk-flex-wrap">
+                                    <li><a class="top-menu__link top-menu__link_first" href="#">Готовые решения для бизнеса</a></li>
+                                    <li><a class="top-menu__link" href="#">Технологическое проектирование</a></li>
+                                    <li><a class="top-menu__link" href="#">Доставка</a></li>
+                                    <li><a class="top-menu__link" href="#">Пусконаладочные работы</a></li>
+                                    <li><a class="top-menu__link" href="#">Кредит</a></li>
+                                    <li><a class="top-menu__link" href="#">Сервисный центр</a></li>
+                                    <li><a class="top-menu__link" href="#">Контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <header class="header">
+                <div class="header__wrap header__wrap uk-flex-wrap uk-child-width-auto uk-padding-left" data-uk-grid>
+                    <div class="" data-uk-grid>
+                        <div class="search">
+                            <form action="">
+                                <div class="setdefaultvalue defaultvalue uk-flex uk-position-relative">
+                                    <input id="inp_search" type="text">
+                                    <label for="inp_search">Поиск по сайту...</label>
+                                    <button class="search__btn" aria-label="Найти">Найти</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="header__contacts">
+                            <a href="tel:" class="header__phone">
+                                <span class="header__phone-city">+7 (8652)</span>74-04-08
+                            </a>
+                            <div class="header__adress"> г. Ставрополь,<br> ул. Доватерцев, 44/2</div>
+                            <div class="header__time-table">пн-сб. 9:00 — 18:00</div>
+                        </div>
+                        <div class="header__contacts">
+                            <a href="tel:" class="header__phone">
+                                <span class="header__phone-city">+7 (8652)</span>73-17-16
+                            </a>
+                            <div class="header__adress"> г. Ставрополь,<br> ул. Пирогова, 15/1</div>
+                            <div class="header__time-table">пн-сб. 9:00 — 18:00</div>
+                        </div>
+
+                        <a class="header__whatsapp" title="WhatsApp" href="whatsapp://send?phone=+79627404800">
+                            <div class="uk-flex uk-flex-middle">
+                                <div class="header__whatsapp-icon"></div>
+                                WhatsApp
+                            </div>
+                            <div class="header__whatsapp-number">+7 962 74-04-800</div>
+                        </a>
+                    </div>
+
+                    <div class="uk-flex header__btn-container">
+                        <div class="header__btn-box header__btn-box-first comparison">
+                            <div class="header-btn-box__icon comparison__icon"></div>
+                            <div class="header__name-btn">Сравнение</div>
+                        </div>
+                        <div class="header__btn-box cart">
+                            <div class="header-btn-box__icon  cart__icon">
+                            </div>
+                            <div class="header__name-btn">Корзина</div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="header-scroll uk-padding-small">
+                <div class="uk-flex uk-flex-middle uk-flex-between">
+                    <div class="search search_scroll uk-width-2-3">
+                        <form action="">
+                            <div class="setdefaultvalue defaultvalue uk-flex uk-position-relative">
+                                <input id="inp_search" type="text">
+                                <label for="inp_search">Поиск по сайту...</label>
+                                <button class="search__btn" aria-label="Найти">Найти</button>
+                            </div>
+                        </form>
+                    </div>
+                    <a class="header__whatsapp header__whatsapp_scroll" title="WhatsApp" href="whatsapp://send?phone=+79627404800">
+                        <div class="uk-flex uk-flex-middle">
+                            <div class="header__whatsapp-icon"></div>
+                            WhatsApp
+                        </div>
+                        <!--                            <div class="header__whatsapp-number">+7 962 74-04-800</div>-->
+                    </a>
+                    
+                    <div class="header__contacts header__contacts_scroll">
+                        <a href="tel:" class="header__phone header__phone_scroll">
+                            +7 (8652) 74-04-08
+                        </a>
+                        <div class="header__adress header__adress_scroll"> г. Ставрополь, ул. Доватерцев, 44/2</div>
+                    </div>
+                    <div class="header__contacts header__contacts_scroll">
+                        <a href="tel:" class="header__phone header__phone_scroll">
+                            +7 (8652)73-17-16
+                        </a>
+                        <div class="header__adress header__adress_scroll"> г. Ставрополь, ул. Пирогова, 15/1</div>
+                    </div>
+
+
+                    <div class="uk-flex">
+                        <div class="header__btn-box header__btn-box-first comparison">
+                            <div class="header-btn-box__icon comparison__icon comparison__icon_blue"></div>
+                        </div>
+                        <div class="header__btn-box cart">
+                            <div class="header-btn-box__icon  cart__icon cart__icon__blue">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-menu">
+                <nav class="top-menu__nav">
+                    <ul class="uk-flex uk-flex-wrap">
+                        <li><a class="top-menu__link top-menu__link_first" href="#">Готовые решения для бизнеса</a></li>
+                        <li><a class="top-menu__link" href="#">Технологическое проектирование</a></li>
+                        <li><a class="top-menu__link" href="#">Доставка</a></li>
+                        <li><a class="top-menu__link" href="#">Пусконаладочные работы</a></li>
+                        <li><a class="top-menu__link" href="#">Кредит</a></li>
+                        <li><a class="top-menu__link" href="#">Сервисный центр</a></li>
+                        <li><a class="top-menu__link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="slider">
+                <div uk-slideshow="ratio: 1599:386; animation: pull; autoplay: true; autoplay-interval:6000;">
+                    <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="img/slide.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/slide.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <main class="uk-margin-medium-left">
+                <div class="about uk-child-width-1-2 uk-grid-small" data-uk-grid>
+                    <div class="about-info">
+                        <h2 class="index-title">Компания Альта</h2>
+                        <div class="about__text">
+                            <p>Компания <b>Альта</b> специализируется на оснащении оборудованием предприятий общественного питания «Под ключ». Мы проектируем, запускаем и производим сервисное обслуживание всего производственного цикла, как для малого, среднего и крупного бизнеса, так и для государственных и муниципальных учреждений.</p>
+                            <p><b>Альта</b> является официальным представителем крупнейших Российских и зарубежных заводов,
+                                специализирующихся на выпуске пищевого, теплового, холодильного, фасовочно-упаковочного,
+                                торгового и складского оборудования. Двадцатишестилетний опыт помогает компетентно
+                                оказывать услуги и справлять даже с самыми сложными задачами.</p>
+                        </div>
+                    </div>
+                    <div class="advantages">
+                        <div class="advantages__wrap">
+
+                            <div class="advantages__item advantages__item_grl">
+                                <div class="uk-flex uk-flex-middle">
+                                    <img src="img/benef1.svg" alt="" class="advantages__icon">
+                                    <div class="advantages__title uk-margin-left">Сервисное и гарантийное <br>
+                                        обслуживание</div>
+                                </div>
+                            </div>
+                            <div class="advantages__item advantages__item_two">
+                                <div class="uk-flex uk-flex-middle">
+                                    <img src="img/benef2.svg" alt="" class="advantages__icon">
+                                    <div class="advantages__title uk-margin-left">Оснащение оборудованием <br>
+                                        «Под ключ»</div>
+                                </div>
+                            </div>
+                        
+                        <div class="advantages__item advantages__item_three">
+                            <div class="uk-flex uk-flex-middle">
+                                <img src="img/benef3.svg" alt="" class="advantages__icon">
+                                <div class="advantages__title uk-margin-left">Собственный <br>автопарк</div>
+                            </div>
+                        </div>    
+                            <div class="advantages__item advantages__item_grr">
+                                <div class="uk-flex uk-flex-middle">
+                                    <img src="img/benef4.svg" alt="" class="advantages__icon">
+                                    <div class="advantages__title uk-margin-left">Широкий <br>
+                                        ассортимент товара</div>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <div class="partner uk-width-1-1">
+                    <h2 class="index-title">Наши партнеры</h2>
+                    <div class="partner__wrap" uk-slider>
+                        <div class="uk-position-relative">
+                            <div class="uk-slider-container uk-light">
+                                <ul class="uk-slider-items uk-child-width-1-6@xl uk-child-width-1-4@m uk-child-width-1-3@s uk-child-width-1-2">
+
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo1.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo2.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo3.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo4.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo1.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo2.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo3.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo4.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo1.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo2.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo3.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo4.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo1.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo2.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo3.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo4.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo1.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo2.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo3.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo4.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo1.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo2.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo3.png" alt="">
+                                    </li>
+                                    <li class="partner__item uk-paddind-small uk-flex uk-flex-middle uk-flex-center">
+                                        <img src="img/part-logo4.png" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="uk-hidden@s uk-light">
+                                <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="index-catalog catalog">
+                    <h2 class="index-title">Каталог</h2>
+                    <div class="catalog__wrap uk-child-width-1-5@xl uk-child-width-1-4@l uk-child-width-1-3@s uk-child-width-auto" data-uk-grid>
+                        <div class="">
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat1.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center">Оснащение столовых и кафе</h4>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat2.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center" uk-flex-center>Грили, попкорн, кофемашины</h4>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat3.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center">Печи, миксеры, теcтомесы
+                                </h4>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat4.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center">Пароконвектоматы, плиты, жарочные шкафы
+                                </h4>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat9.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center">Столы, стулья, кресла, стеллажи,
+                                    мебель по индивидуальному заказу
+                            
+                                </h4>
+                            </a>
+                        </div>
+<div>
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat1.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center">Оснащение столовых и кафе</h4>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat2.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center" uk-flex-center>Грили, попкорн, кофемашины</h4>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat3.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center">Печи, миксеры, теcтомесы
+                                </h4>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat4.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center">Пароконвектоматы, плиты, жарочные шкафы
+                                </h4>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat9.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center">Столы, стулья, кресла, стеллажи,
+                                    мебель по индивидуальному заказу
+                            
+                                </h4>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat1.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center">Оснащение столовых и кафе</h4>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat2.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center" uk-flex-center>Грили, попкорн, кофемашины</h4>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat3.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center">Печи, миксеры, теcтомесы
+                                </h4>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat4.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center">Пароконвектоматы, плиты, жарочные шкафы
+                                </h4>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="catalog__cat-item">
+                                <div class="catalog__img">
+                                    <img src="img/cat9.jpg" alt="">
+                                </div>
+                                <h4 class="catalog__cat-title uk-flex uk-flex-middle uk-flex-center">Столы, стулья, кресла, стеллажи,
+                                    мебель по индивидуальному заказу
+                            
+                                </h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="special">
+                    <h2 class="index-title">Специальное предложение</h2>
+                    <div class="special__wrap uk-grid-match uk-grid-small uk-child-width-1-5@xl uk-child-width-1-3@l uk-child-width-1-2@m uk-child-width-1-2@s uk-child-width-1-1" data-uk-grid>
+
+                        <div>
+                            <div class="catalog__item">
+                                <a href="#" class="catalog__link">
+                                    <div class="catalog__img-pr">
+                                        <img src="img/spez1.jpg" alt="">
+                                    </div>
+                                    <div class="catalog__title-pr">
+                                        Пароконвектомат TECNOEKA EVOLUTION EKF 523 UD
+                                    </div>
+                                </a>
+                                <div class="catalog__price uk-flex uk-flex-wrap">
+                                    <div class="catalog__price-new">
+                                        985 600 ₽
+                                    </div>
+                                    <div class="catalog__price-old">
+                                        185 600 ₽
+                                    </div>
+                                </div>
+                                <div class="catalog__item-btn uk-flex uk-flex-wrap">
+                                    <a href="#" class="catalog__btn-box uk-flex">
+                                        <img src="img/cart-color.svg" alt="" class="catalog__cart-icon">
+                                        <div class="catalog__btn-text">в корзину</div>
+                                    </a>
+                                    <a href="#" class="catalog__btn-box uk-flex">
+                                        <img src="img/comparison-color.svg" alt="" class="catalog__comp-icon">
+                                        <div class="catalog__btn-text">сравнить</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="catalog__item">
+                                <div class="catalog__img-pr">
+                                    <img src="img/spez2.jpg" alt="">
+                                </div>
+                                <div class="catalog__title-pr">
+                                    Витрина морозильная ПОЛЮС
+                                    Арго 1,0 ВХСн
+                                </div>
+                                <div class="catalog__price uk-flex uk-flex-wrap">
+                                    <div class="catalog__price-new">
+                                        31 200 ₽
+                                    </div>
+                                    <div class="catalog__price-old">
+                                        33 800 ₽
+                                    </div>
+                                </div>
+                                <div class="catalog__item-btn uk-flex uk-flex-wrap">
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/cart-color.svg" alt="" class="catalog__cart-icon">
+                                        <div class="catalog__btn-text">в корзину</div>
+                                    </div>
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/comparison-color.svg" alt="" class="catalog__comp-icon">
+                                        <div class="catalog__btn-text">сравнить</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="catalog__item">
+                                <div class="catalog__img-pr">
+                                    <img src="img/spez3.jpg" alt="">
+                                </div>
+                                <div class="catalog__title-pr">
+                                    Модуль нейтральный ABAT «Премьер» МН-70Т
+                                </div>
+                                <div class="catalog__price uk-flex uk-flex-wrap">
+                                    <div class="catalog__price-new">
+                                        22 880 ₽
+                                    </div>
+                                    <div class="catalog__price-old">
+                                        19 800 ₽
+                                    </div>
+                                </div>
+                                <div class="catalog__item-btn uk-flex uk-flex-wrap">
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/cart-color.svg" alt="" class="catalog__cart-icon">
+                                        <div class="catalog__btn-text">в корзину</div>
+                                    </div>
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/comparison-color.svg" alt="" class="catalog__comp-icon">
+                                        <div class="catalog__btn-text">сравнить</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="catalog__item">
+                                <div class="catalog__img-pr">
+                                    <img src="img/spez4.jpg" alt="">
+                                </div>
+                                <div class="catalog__title-pr">
+                                    Пароконвектомат TECNOEKA EVOLUTION EKF 523 UD
+                                </div>
+                                <div class="catalog__price uk-flex uk-flex-wrap">
+                                    <div class="catalog__price-new">
+                                        55 500 ₽
+                                    </div>
+                                    <div class="catalog__price-old">
+                                        60 250 ₽
+                                    </div>
+                                </div>
+                                <div class="catalog__item-btn uk-flex uk-flex-wrap">
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/cart-color.svg" alt="" class="catalog__cart-icon">
+                                        <div class="catalog__btn-text">в корзину</div>
+                                    </div>
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/comparison-color.svg" alt="" class="catalog__comp-icon">
+                                        <div class="catalog__btn-text">сравнить</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="catalog__item">
+                                <div class="catalog__img-pr">
+                                    <img src="img/spez5.jpg" alt="">
+                                </div>
+                                <div class="catalog__title-pr">
+                                    Кофемашина Merol ME-709 Black OFFICE 2200000627162
+                                </div>
+                                <div class="catalog__price uk-flex uk-flex-wrap">
+                                    <div class="catalog__price-new">
+                                        25 500 ₽
+                                    </div>
+                                    <div class="catalog__price-old">
+                                        32 199 ₽
+                                    </div>
+                                </div>
+                                <div class="catalog__item-btn uk-flex uk-flex-wrap">
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/cart-color.svg" alt="" class="catalog__cart-icon">
+                                        <div class="catalog__btn-text">в корзину</div>
+                                    </div>
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/comparison-color.svg" alt="" class="catalog__comp-icon">
+                                        <div class="catalog__btn-text">сравнить</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="catalog__item">
+                                <div class="catalog__img-pr">
+                                    <img src="img/spez1.jpg" alt="">
+                                </div>
+                                <div class="catalog__title-pr">
+                                    Пароконвектомат TECNOEKA EVOLUTION EKF 523 UD
+                                </div>
+                                <div class="catalog__price uk-flex uk-flex-wrap">
+                                    <div class="catalog__price-new">
+                                        985 600 ₽
+                                    </div>
+                                    <div class="catalog__price-old">
+                                        185 600 ₽
+                                    </div>
+                                </div>
+                                <div class="catalog__item-btn uk-flex uk-flex-wrap">
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/cart-color.svg" alt="" class="catalog__cart-icon">
+                                        <div class="catalog__btn-text">в корзину</div>
+                                    </div>
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/comparison-color.svg" alt="" class="catalog__comp-icon">
+                                        <div class="catalog__btn-text">сравнить</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="catalog__item">
+                                <div class="catalog__img-pr">
+                                    <img src="img/spez2.jpg" alt="">
+                                </div>
+                                <div class="catalog__title-pr">
+                                    Витрина морозильная ПОЛЮС
+                                    Арго 1,0 ВХСн
+                                </div>
+                                <div class="catalog__price uk-flex uk-flex-wrap">
+                                    <div class="catalog__price-new">
+                                        31 200 ₽
+                                    </div>
+                                    <div class="catalog__price-old">
+                                        33 800 ₽
+                                    </div>
+                                </div>
+                                <div class="catalog__item-btn uk-flex uk-flex-wrap">
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/cart-color.svg" alt="" class="catalog__cart-icon">
+                                        <div class="catalog__btn-text">в корзину</div>
+                                    </div>
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/comparison-color.svg" alt="" class="catalog__comp-icon">
+                                        <div class="catalog__btn-text">сравнить</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="catalog__item">
+                                <div class="catalog__img-pr">
+                                    <img src="img/spez3.jpg" alt="">
+                                </div>
+                                <div class="catalog__title-pr">
+                                    Модуль нейтральный ABAT «Премьер» МН-70Т
+                                </div>
+                                <div class="catalog__price uk-flex uk-flex-wrap">
+                                    <div class="catalog__price-new">
+                                        22 880 ₽
+                                    </div>
+                                    <div class="catalog__price-old">
+                                        19 800 ₽
+                                    </div>
+                                </div>
+                                <div class="catalog__item-btn uk-flex uk-flex-wrap">
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/cart-color.svg" alt="" class="catalog__cart-icon">
+                                        <div class="catalog__btn-text">в корзину</div>
+                                    </div>
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/comparison-color.svg" alt="" class="catalog__comp-icon">
+                                        <div class="catalog__btn-text">сравнить</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="catalog__item">
+                                <div class="catalog__img-pr">
+                                    <img src="img/spez4.jpg" alt="">
+                                </div>
+                                <div class="catalog__title-pr">
+                                    Пароконвектомат TECNOEKA EVOLUTION EKF 523 UD
+                                </div>
+                                <div class="catalog__price uk-flex uk-flex-wrap">
+                                    <div class="catalog__price-new">
+                                        55 500 ₽
+                                    </div>
+                                    <div class="catalog__price-old">
+                                        60 250 ₽
+                                    </div>
+                                </div>
+                                <div class="catalog__item-btn uk-flex uk-flex-wrap">
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/cart-color.svg" alt="" class="catalog__cart-icon">
+                                        <div class="catalog__btn-text">в корзину</div>
+                                    </div>
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/comparison-color.svg" alt="" class="catalog__comp-icon">
+                                        <div class="catalog__btn-text">сравнить</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="catalog__item">
+                                <div class="catalog__img-pr">
+                                    <img src="img/spez5.jpg" alt="">
+                                </div>
+                                <div class="catalog__title-pr">
+                                    Кофемашина Merol ME-709 Black OFFICE 2200000627162
+                                </div>
+                                <div class="catalog__price uk-flex uk-flex-wrap">
+                                    <div class="catalog__price-new">
+                                        25 500 ₽
+                                    </div>
+                                    <div class="catalog__price-old">
+                                        32 199 ₽
+                                    </div>
+                                </div>
+                                <div class="catalog__item-btn uk-flex uk-flex-wrap">
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/cart-color.svg" alt="" class="catalog__cart-icon">
+                                        <div class="catalog__btn-text">в корзину</div>
+                                    </div>
+                                    <div class="catalog__btn-box uk-flex">
+                                        <img src="img/comparison-color.svg" alt="" class="catalog__comp-icon">
+                                        <div class="catalog__btn-text">сравнить</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#" class="more-btn">
+                        Больше предложений <img src="img/arrow-btn2.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="index-gallery gallery">
+                    <h2 class="index-title">
+                        Наши работы
+                    </h2>
+                    <div class="gallery__wrap uk-grid-match uk-child-width-1-4@l uk-child-width-1-3@m  uk-child-width-1-2@s  uk-child-width-1-1" data-uk-grid>
+                        <div>
+                            <a href="#" class="gallery__item">
+                                <div class="gallery__photo">
+                                    <img src="img/gal1.jpg" alt="">
+                                </div>
+                                <div class="gallery__title">
+                                    Кафе “Coffe time”
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="gallery__item">
+                                <div class="gallery__photo">
+                                    <img src="img/gal2.jpg" alt="">
+                                </div>
+                                <div class="gallery__title">
+                                    Оснащение оборудованием столовой “Кушать подано”
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="gallery__item">
+                                <div class="gallery__photo">
+                                    <img src="img/gal3.jpg" alt="">
+                                </div>
+                                <div class="gallery__title">
+                                    Ресторан “Приходи, я жду”
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="gallery__item">
+                                <div class="gallery__photo">
+                                    <img src="img/gal4.jpg" alt="">
+                                </div>
+                                <div class="gallery__title">
+                                    Оснащение оборудованием столовой “Кушать подано”
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="more-btn">
+                        Посмотреть все работы <img src="img/arrow-btn2.svg" alt="">
+                    </a>
+                </div>
+
+            </main>
+            <footer>
+                <div class="footer__wrap uk-width-1-1">
+                    <div class="uk-child-width-1-4@l uk-child-width-1-2@s" data-uk-grid>
+                        <div class="footet__cont">
+                            <div class="footer__adress uk-margin-small-bottom">
+                                г. Ставрополь, ул. Доватерцев, 44/2
+                            </div>
+                            <a href="tel:+78652740408" class="footer__phone">
+                                +7 (8652) 74-04-08
+                            </a>
+                            <div class="footer__time-table">
+                                <ul class="footer__days">
+                                    <li class="footer__day"></li>
+                                    <li class="footer__day"></li>
+                                    <li class="footer__day"></li>
+                                    <li class="footer__day"></li>
+                                    <li class="footer__day"></li>
+                                    <li class="footer__day"></li>
+                                    <li class="footer__day footer__day_red"></li>
+                                </ul>
+                                <div class="footer__time-table">пн-сб. 9:00 — 18:00</div>
+                            </div>
+                        </div>
+                        <div class="footet__cont">
+                            <div class="footer__adress uk-margin-small-bottom">
+                                г. Ставрополь, ул. Пирогова, 15/1
+                            </div>
+                            <a href="tel:+78652731716" class="footer__phone">
+                                +7 (8652) 73-17-16
+                            </a>
+                            <div class="footer__time-table">
+                                <ul class="footer__days">
+                                    <li class="footer__day"></li>
+                                    <li class="footer__day"></li>
+                                    <li class="footer__day"></li>
+                                    <li class="footer__day"></li>
+                                    <li class="footer__day"></li>
+                                    <li class="footer__day"></li>
+                                    <li class="footer__day footer__day_red"></li>
+                                </ul>
+                                <div class="footer__time-table">пн-сб. 9:00 — 18:00</div>
+                            </div>
+                        </div>
+                        <div class="footer__social-box">
+                            <a class="footer__whatsapp" href="whatsapp://send?phone=+79627404800"><img class="footer__whatsapp-icon" src="img/whatsapp-logo-hov.svg" alt="">+7 962 74-04-800</a>
+
+                            <div class="soc">
+                                <a class="soc__link soc__link_vk" href="https://vk.com/" target="_blank" rel="nofollow noopener" aria-label="Вконтакте"></a>
+
+                                <a class="soc__link soc__link_fb" href="https://www.facebook.com" target="_blank" rel="nofollow noopener" aria-label="facebook"></a>
+
+                                <a class="soc__link soc__link_ok" href="https://ok.ru/" target="_blank" rel="nofollow noopener" aria-label="Одноклассники"></a>
+
+                                <a class="soc__link soc__link_in" href="https://www.instagram.com" target="_blank" rel="nofollow noopener" aria-label="instagram"></a>
+
+                                <a class="soc__link soc__link_yt" href="https://www.youtube.com" target="_blank" rel="nofollow noopener" aria-label="youtube"></a>
+                            </div>
+                        </div>
+
+                        <div class="footer__company">
+                            <div class="footer__copyright">
+                                © 2019, Альта
+                            </div>
+                            <div>
+                                <a href="#" class="footer__link">Политика конфиденциальности</a>
+                            </div>
+                            <div>
+                                <a href="#" class="footer__link">Статьи</a>
+                            </div>
+                            <div class="footer__delta-logo" style="width:169px;"><a href="http://delta-ltd.ru/" target="_blank" rel="nofollow noopener"><img width="169" src="img/delta_logo_footer.svg" alt="DELTA"></a></div>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.3.3.1.js"></script>
+    <script src="js/javascript.js"></script>
+
+    <!--  Uikit  -->
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <!--  /Uikit  -->
+
+
+    <script defer src="fontawesome/fontawesome-all.js"></script>
+
+    <!--  fancybox  -->
+    <link rel="stylesheet" type="text/css" href="fancybox/dist/jquery.fancybox.min.css">
+    <script src="fancybox/dist/jquery.fancybox.min.js"></script>
+    <!--  /fancybox  -->
+
+    <!--    fix-menu-->
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 400 && window.innerWidth >= 992) {
+                    //$('.top-menu').addClass('active');
+                    $('.header-scroll ').fadeIn();
+                    //$('.userpanel.OnBottomLine').removeClass('hide'); 
+
+                } else {
+                    //$('.top-menu').removeClass('active');
+                    $('.header-scroll').fadeOut();
+                    //$('.userpanel.OnBottomLine').addClass('hide');
+                }
+            });
+        });
+
+        $(window).resize(function() {
+            if (window.innerWidth >= 992) {
+                $('.header-scroll').fadeIn();
+            } else {
+                $('.header-scroll').fadeOut();
+            }
+        });
+    </script>
+    <!--    /fix-menu-->
+
+    <!--  scrollup  -->
+    <a href="#" class="scrollup">Наверх</a>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollup').fadeIn();
+                } else {
+                    $('.scrollup').fadeOut();
+                }
+            });
+
+            $('.scrollup').click(function() {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 600);
+                return false;
+            });
+
+        });
+    </script>
+    <!--  /scrollup  -->
+
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+        wow = new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // default
+            offset: 0, // default
+            mobile: true, // default
+            live: true // default
+        })
+        wow.init();
+    </script>
+
+
+    <!--  form input  -->
+    <script>
+        $('.setdefaultvalue').each(function() {
+            var elem = $(this);
+            var input = $('input,textarea', this);
+            if (input.val() == '')
+                elem
+                .addClass('defaultvalue')
+                .removeClass('uservalue');
+            else
+                elem
+                .removeClass('defaultvalue')
+                .addClass('uservalue');
+            input.focus(function() {
+                elem.addClass('focus');
+            });
+            input.focusout(function() {
+                elem.removeClass('focus');
+                if (input.val() == '')
+                    elem
+                    .addClass('defaultvalue')
+                    .removeClass('uservalue');
+            });
+            input.keyup(function() {
+                if (input.val() == '')
+                    elem
+                    .addClass('defaultvalue')
+                    .removeClass('uservalue');
+                else
+                    elem.removeClass('defaultvalue').addClass('uservalue');
+            });
+        });
+    </script>
+    <!--  /form input  -->
+
+</body>
+
+</html>
